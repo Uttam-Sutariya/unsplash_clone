@@ -1,6 +1,6 @@
 # unsplash_clone
 
-Created unsplash clone using vaniila javascript and [Unsplash API](https://unsplash.com/developers).
+Created unsplash clone using vanilla javascript and [Unsplash API](https://unsplash.com/developers).
 
 ## Project Link 👇
 
