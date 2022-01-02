@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Unsplash Clone</title>
+        <link
+            rel="shortcut icon"
+            href="./img/favicon.jpg"
+            type="image/x-icon"
+        />
+        <link rel="stylesheet" href="./css/style.css" />
+        <!--Google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <header class="header-section">
+            <div class="header-content">
+                <h1 class="logo">Unsplash</h1>
+                <p class="sub-line">
+                    the best royalt free images you can find here.
+                </p>
+
+                <form action="./search.html" class="home-page-form">
+                    <input
+                        type="text"
+                        autocomplete="off"
+                        name="search"
+                        class="search-box"
+                        placeholder="Search Image"
+                    />
+                    <button class="search-btn" type="submit">search</button>
+                </form>
+            </div>
+        </header>
+
+        <!-- image popup -->
+        <div class="img-popup hide">
+            <button class="close-btn">X</button>
+            <a href="" class="download-btn">download</a>
+            <img src="" class="large-img" alt="" />
+            <button class="controls pre-btn">
+                <img src="./img/pre.png" alt="" />
+            </button>
+            <button class="controls nxt-btn">
+                <img src="./img/nxt.png" alt="" />
+            </button>
+        </div>
+
+        <!--Image gallery-->
+        <section class="gallery">
+            <!-- image will come dynamically -->
+            <!-- <img src="./img/img (1).png" class="gallery-img"> -->
+        </section>
+
+        <script src="./app.js"></script>
+    </body>
+</html>
